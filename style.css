@@ -7,4 +7,5 @@ body {
 }
 #localVideo {
   width: 100%;
+  height: auto;
 }
