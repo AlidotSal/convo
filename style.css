@@ -17,7 +17,7 @@ body {
   display: block;
 }
 #localVideo {
-  position; relative;
+  position: relative;
   width: 100%;
   z-index: 3;
 }
