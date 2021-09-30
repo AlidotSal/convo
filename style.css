@@ -6,6 +6,7 @@ body {
 }
 .videos {
   display: relative;
+  outline: 1px solid red;
 }
 #remoteVideo {
   position: absolute;
