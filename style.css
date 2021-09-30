@@ -9,7 +9,6 @@ body {
 }
 #remoteVideo {
   display: none;
-  position: relative;
   width: 100%;
   height: auto;
 }
@@ -17,12 +16,11 @@ body {
   display: block;
 }
 #localVideo {
-  position: relative;
   width: 100%;
   z-index: 3;
 }
 #localVideo.small {
-  position: absolute;
+  position: relative;
   bottom: 1em;
   right: 1em;
   width: 20%;
