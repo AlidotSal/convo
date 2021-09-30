@@ -21,8 +21,8 @@ body {
 }
 #localVideo.small {
   position: absolute;
-  bottom: 1em;
-  right: 1em;
+  bottom: -1em;
+  right: -1em;
   width: 20%;
   border-radius: 0.5em;
 }
