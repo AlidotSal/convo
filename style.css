@@ -8,6 +8,7 @@ body {
   display: relative;
 }
 #remoteVideo {
+  position: absolute;
   display: none;
   width: 100%;
   height: auto;
