@@ -9,7 +9,6 @@ body {
   outline: 1px solid red;
 }
 #remoteVideo {
-  position: absolute;
   display: none;
   width: 100%;
   height: auto;
@@ -18,18 +17,19 @@ body {
   display: block;
 }
 #localVideo {
-  position: relative;
+  position: absolute;
   width: 100%;
   z-index: 3;
 }
 #localVideo.small {
-  position: absolute;
-  top: 80%;
-  left: 80%;
-  width: 20%;
+  transform: translate(80%, 80%);
+  transform: scale(0.2, 0.2);
   border-radius: 0.5em;
 }
 .buttons {
+  position: absolute;
+  bottom: 2em;
+  left: 50%;
   z-index: 4;
 }
 
