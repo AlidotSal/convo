@@ -25,6 +25,7 @@ body {
   bottom: 1em;
   right: 1em;
   width: 20%;
+  border-radius: 1em;
 }
 .buttons {
   z-index: 4;
