@@ -4,6 +4,9 @@ body {
   margin: 0;
   padding: 0;
 }
+.videos {
+  display: relative;
+}
 #remoteVideo {
   display: none;
   position: relative;
