@@ -1,0 +1,31 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.call {
+  position: relative;
+}
+#remoteVideo {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+#remoteVideo.active {
+  display: block;
+}
+#localVideo {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+#localVideo.small {
+  bottom: 1em;
+  right: 1em;
+  width: 20%;
+}
+.buttons {
+  z-index: 4;
+}
