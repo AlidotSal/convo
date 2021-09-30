@@ -16,11 +16,12 @@ body {
   display: block;
 }
 #localVideo {
-  position: absolute;
+  position: relative;
   width: 100%;
   z-index: 3;
 }
 #localVideo.small {
+  position: absolute;
   bottom: 1em;
   right: 1em;
   width: 20%;
