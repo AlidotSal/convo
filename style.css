@@ -20,7 +20,7 @@ body {
   z-index: 3;
 }
 #localVideo.small {
-  position: relative;
+  position: absolute;
   bottom: 1em;
   right: 1em;
   width: 20%;
