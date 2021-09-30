@@ -7,12 +7,11 @@ body {
 .call {
   position: relative;
 }
-videos {
+.videos {
   position: relative;
 }
 #remoteVideo {
   display: none;
-  position: absolute;
   width: 100%;
   height: auto;
 }
