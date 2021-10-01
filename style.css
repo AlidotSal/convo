@@ -23,8 +23,8 @@ body {
   transition: 0.25s all;
 }
 #localVideo.small {
-  left: -0.5em;
-  top: -0.5em;
+  top: 18%;
+  left: -0.7%;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
   box-shadow: 0 0 0 5px white;
