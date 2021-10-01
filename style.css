@@ -17,10 +17,14 @@ body {
 }
 #localVideo {
   position: absolute;
+  left: 0;
   width: 100%;
   z-index: 3;
+  transition: 0.25s all;
 }
 #localVideo.small {
+  transform-origin: bottom left;
+  transform: scale(0.2);
   border-radius: 0.5em;
 }
 .buttons {
