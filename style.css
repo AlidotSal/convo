@@ -23,10 +23,11 @@ body {
   transition: 0.25s all;
 }
 #localVideo.small {
-  left: 0.5em;
+  left: -0.5em;
   top: -0.5em;
-  border-radius: 0.5em;
-  transform-origin: bottom left;
+  border-radius: 2em;
+  /* clip-path: circle(50%); */
+  transform-origin: bottom right;
   transform: scale(0.2);
 }
 .buttons {
