@@ -26,7 +26,7 @@ body {
   top: -0.5em;
   left: -0.5em;
   border-radius: 2em;
-  box-shadow: 0 0 0 0.5em white;
+  box-shadow: 0 0 0 2px white, 0 0 3px 0 rgba(0, 0, 0, 0.8);
   transform-origin: bottom right;
   transform: scale(0.2);
 }
