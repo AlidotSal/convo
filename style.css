@@ -50,6 +50,7 @@ img{
   padding: 0 .35em;
   border-radius: 50%;
   border: none;
+  background: #333;
 }
 .buttons #callButton, .buttons #answer {
   background: #4bd664;
