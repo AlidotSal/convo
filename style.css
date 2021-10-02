@@ -4,6 +4,9 @@ body {
   margin: 0;
   padding: 0;
 }
+.call {
+  min-height: 60vh;
+}
 .videos {
   position: relative;
 }
