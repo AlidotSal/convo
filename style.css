@@ -5,10 +5,8 @@ body {
   padding: 0;
 }
 .call {
-  min-height: 60vh;
-}
-.videos {
   position: relative;
+  min-height: 60vh;
 }
 #remoteVideo {
   display: none;
@@ -36,7 +34,6 @@ body {
 .buttons {
   position: absolute;
   bottom: 2em;
-  left: 20%;
   z-index: 4;
 }
 
