@@ -4,8 +4,11 @@ body {
   margin: 0;
   padding: 0;
 }
+.call {
+  position: relative;
+}
 .videos {
-  display: relative;
+  position: relative;
 }
 #remoteVideo {
   display: none;
