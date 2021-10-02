@@ -6,6 +6,10 @@ body {
   color: #f1f1f1;
   background: black;
 }
+img{
+  display: inline-block;
+  max-width: 100%;
+}
 .call {
   position: relative;
   min-height: 60vh;
