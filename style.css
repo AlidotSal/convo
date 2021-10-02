@@ -40,6 +40,7 @@ img{
 .buttons {
   position: absolute;
   bottom: 2em;
+  width: 70%;
   padding: 1em;
   z-index: 4;
   background: #111;
