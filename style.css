@@ -45,6 +45,7 @@ img{
   background: #111;
 }
 .buttons button {
+  cursor: pointer;
   width: 2em;
   height: 2em;
   padding: 0 .35em;
@@ -58,9 +59,18 @@ img{
 .buttons #hangUp {
   background: #ed3939;
 }
+.messaging-area {
+  background: grey;
+}
+.messaging-area .received {
+  background: #1782d4;
+}
+.messaging-area .sent {
+  background: #333;
+}
 
 @media (pointer: fine) {
-  #remoteVideo {
+  #call {
     width: 20%;
     height: auto;
   }
