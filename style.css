@@ -6,6 +6,10 @@ body {
   color: #f1f1f1;
   background: black;
 }
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
 img{
   display: inline-block;
   max-width: 100%;
@@ -42,17 +46,18 @@ img{
   bottom: 0.5em;
   width: 70%;
   padding: 0.5em;
+  border-radius: 2em;
   z-index: 4;
-  background: #111;
+  background: #222;
 }
 .buttons button {
   cursor: pointer;
-  width: 2em;
-  height: 2em;
+  width: 3em;
+  height: 3em;
   padding: 0 .35em;
   border-radius: 50%;
   border: none;
-  background: #333;
+  background: #444;
 }
 .buttons #callButton, .buttons #answer {
   background: #4bd664;
@@ -71,7 +76,7 @@ img{
 }
 
 @media (pointer: fine) {
-  #call {
+  .call {
     width: 20%;
     height: auto;
   }
