@@ -57,6 +57,7 @@ img{
   background: #222;
 }
 .buttons button {
+  display: none;
   cursor: pointer;
   width: 3em;
   height: 3em;
@@ -64,6 +65,9 @@ img{
   border-radius: 50%;
   border: none;
   background: #444;
+}
+.buttons button.visiable {
+  display: block;
 }
 .buttons #callButton, .buttons #answer {
   background: #4bd664;
