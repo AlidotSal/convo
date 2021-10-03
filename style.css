@@ -84,11 +84,13 @@ img{
 }
 .messaging-area .received {
   width: 70%;
+  padding: 0.5em;
   background: #1782d4;
   text-align: end;
 }
 .messaging-area .sent {
   width: 70%;
+  padding: 0.5em;
   background: #333;
 }
 
