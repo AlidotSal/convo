@@ -86,7 +86,9 @@ img{
   box-shadow: inset 0 0 4px 1px #111;
 }
 .messaging-area.visiable {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
 }
 #chat {
   display: flex;
@@ -97,6 +99,7 @@ img{
   bottom: 0;
 }
 .messaging-area .received {
+  align-self: end;
   width: 70%;
   padding: 0.5em 1em;
   background: #1782d4;
