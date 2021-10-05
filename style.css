@@ -89,11 +89,11 @@ img{
 .messaging-area.visiable {
   display: flex;
   flex-direction: column;
-  gap: 0.5em;
 }
 #chat {
   display: flex;
   flex-direction: column;
+  gap: 0.5em;
 }
 .messaging-area .send {
   position: fixed;
