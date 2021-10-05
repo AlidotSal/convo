@@ -102,15 +102,19 @@ img{
   align-self: end;
   width: 70%;
   padding: 0.5em 1em;
-  background: #1782d4;
   text-align: end;
+}
+.messaging-area .received span {
+  background: #1782d4;
+  border-radius: 2em;
+}
+.messaging-area .sent span {
+  background: #333;
   border-radius: 2em;
 }
 .messaging-area .sent {
   width: 70%;
   padding: 0.5em 1em;
-  border-radius: 2em;
-  background: #333;
 }
 
 @media (pointer: fine) {
