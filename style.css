@@ -92,7 +92,7 @@ img{
 #chat {
   display: flex;
   flex-direction: column;
-  gap: 0.5em;
+  gap: 1em;
   font-size: 12px;
 }
 .messaging-area .send {
