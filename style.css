@@ -92,6 +92,9 @@ img{
   display: flex;
   flex-direction: column;
 }
+.messaging-area .send {
+  position: fixed;
+  bottom: 0;
 }
 .messaging-area .received {
   width: 70%;
