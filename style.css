@@ -120,7 +120,11 @@ img{
 
 @media (pointer: fine) {
   .call {
-    width: auto;
-    height: 80vh;
+    width: 50%;
+    height: auto;
   }
+  #remoteVideo {
+  width: auto;
+  height: 80vh;
+}
 }
