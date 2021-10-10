@@ -120,7 +120,7 @@ img{
 
 @media (pointer: fine) {
   .call {
-    width: 50%;
-    height: auto;
+    width: auto;
+    height: 80vh;
   }
 }
