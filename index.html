@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Convo App</title>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div class="call">
+        <div class="Audio">
+          <audio id="remoteAudio" autoplay></audio>
+        </div>
+        <div class="buttons">
+          <h3 id="number">ID is:</h3>
+          <input id="input" type="number" />
+          <button id="callButton">
+            <img src="./images/call.svg" alt="" />
+          </button>
+          <button id="answer"><img src="./images/call.svg" alt="" /></button>
+          <button id="hangUp">
+            <img src="./images/end-call.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./out.js"></script>
+  </body>
+</html>
