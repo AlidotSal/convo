@@ -34,7 +34,6 @@ img{
   background: #222;
 }
 .buttons button {
-  display: none;
   cursor: pointer;
   width: 3em;
   height: 3em;
