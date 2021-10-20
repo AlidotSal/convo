@@ -22,8 +22,10 @@ img{
   min-height: 60vh;
 }
 .buttons {
-  position: absolute;
-  bottom: 0.5em;
+  position: fixed;
+  bottom: 2em;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   flex-wrap: wrap;
   gap: .4em;
