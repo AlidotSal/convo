@@ -29,7 +29,7 @@ img{
   display: flex;
   flex-wrap: wrap;
   gap: .4em;
-  width: 70%;
+  width: 80%;
   padding: 0.5em;
   border-radius: 2em;
   z-index: 4;
